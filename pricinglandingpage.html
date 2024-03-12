@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Plans</title>
+    <style>
+        /* Basic styling */
+        h1{color:violet
+        }
+        h3{color: violet;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:black;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 2px;
+            background-color:black;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .pricing-table {
+            display: flex;
+            justify-content: center;
+        }
+        .pricing-column {
+            flex: 1;
+            padding: 20px;
+            text-align: center;
+            border: 5px solid whitesmoke;
+            border-radius: 360px;
+            margin: 0 10px;
+            transition: all 0.3s ease;
+        }
+        .pricing-column:hover {
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            transform: translateY(-10px);
+        }
+        .pricing-column h3 {
+            color: blue;
+        }
+        .pricing-column p {
+            color: violet;
+        }
+        .pricing-column li{
+            color:green
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Pricing Plans</h1>
+        <h3>Plans for netflix </h3>
+        <div class="pricing-table">
+            <div class="pricing-column">
+                                <h3>Basic</h3>
+                <p>$100/month</p>
+                <ul>
+                    <li>use up to 3 members</li>
+                    <li>only for mobiles</li>
+                </ul>
+                <button>Buy now</button>
+            </div>
+            <div class="pricing-column">
+                <h3>Pro</h3>
+                <p>$200/month</p>
+                <ul>
+                    <li>use upto 6 members</li>
+                    <li>only for tabs</li>
+                </ul>
+                <button>Buy now</button>
+            </div>
+            <div class="pricing-column">
+                <h3>Premium</h3>
+                <p>$300/month</p>
+                <ul>
+                    <li>use upto 10 members</li>
+                    <li>use for mobiles,tabs&laptops</li>
+                </ul>
+                <button>Buy now</button>
+                <style>button{color:red
+                }
+                h1{text-align: center;
+                    
+                }
+                h3{text-align: center;}
+                </style>
+                
+            </div>
+        </div>
+    </div>
+</body>
+<style>
+    footer{color:violet; 
+        text-align:center;
+        padding: 20px 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+
+    }
+    .footer p{margin: 0;
+    }
+</style>
+<footer class="footer"><p>&copy;your website.All rights reserved.</p></footer>
+</html>
